@@ -3,46 +3,28 @@ package com.playground;
 public class Main {
     public static void main(String[] args) {
 
-        //percabangan pada java
+        //operator aritmatika
 
-        //single statement
-        boolean nama = true;
+        // tambah ( + )
+        float angka1 = 3;
+        float angka2 = 4;
 
-        if (nama == true ){
-            System.out.println("silahkan masuk");
-        }
+        System.out.println(angka1 + angka2);
 
-        System.out.println("////////////////////////////");
+        System.out.println("///////////////////////////////////////");
 
-        //percabangan else  / double statement
+        // kurang ( - )
+        System.out.println(angka1 - angka2);
 
-        //ini akan mencetak yang kedua
-        if (nama != true){
+        System.out.println("///////////////////////////////////////");
 
-            System.out.println("silahkan masuk");
-        }else {
-            System.out.println("anda tidak boleh masuk");
-        }
+        // kali ( * )
+        System.out.println(angka1 * angka2);
 
-        System.out.println("////////////////////////////");
+        System.out.println("///////////////////////////////////////");
 
-        //banyak percabangan many statement
-
-        int umur = 21;
-
-        if (nama == true && umur== 21 ){
-
-            System.out.println("aku masih muda");
-        } else if(nama == false && umur== 21 ){
-            System.out.println("kamu siapa dan muda");
-        } else if(nama == true && umur== 40 ){
-            System.out.println("aku sudah tua");
-        }else {
-            System.out.println("kamu siapa dan kamu tua");
-        }
-
-        //kita tinggal mainkan saja variabelnya
-
+        //bagi ( / )
+        System.out.print(angka1 / angka2);
 
 
     }
