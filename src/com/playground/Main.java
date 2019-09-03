@@ -2,50 +2,46 @@ package com.playground;
 
 public class Main {
     public static void main(String[] args) {
-    //tipe tipe data
 
-        //boolean
+        //percabangan pada java
 
-        boolean benar = true;
-        boolean salah = false;
+        //single statement
+        boolean nama = true;
 
-        System.out.println("ini benar " + benar + " dan ini salah " + salah);
-
-        System.out.println("////////////////////////////");
-
-        //integer tipe data yang didalamnya berupa angka
-        int angka = 0;
-        int angka1 = 1;
-
-        System.out.println("ini angka yang ke- " + angka + " dan ini angka yang ke- " + angka1);
-
-        //String tipe data yang menampilkan kumpulan huruf
-        String Kalimat = "yusuf";
-        System.out.println("nama panggilan saya adalah " + Kalimat);
+        if (nama == true ){
+            System.out.println("silahkan masuk");
+        }
 
         System.out.println("////////////////////////////");
 
-        //jika ingin mengambil perhuruf kita bisa menggunakan char()
-        //contoh kita akan mengambil huruf dari kata varibel Kalimat
-        //kita akan mengambil huruf ke 5 dan di mulai dari angka 0
+        //percabangan else  / double statement
 
-        //contoh ada kata seperti berikut kata Y U S U F
-        //memiliki index                       0 1 2 3 4
-        System.out.println("mengambil huruf dari variabel Kalimat");
-        System.out.println(Kalimat.charAt(0));
-        System.out.println( Kalimat.charAt(1));
-        System.out.println( Kalimat.charAt(2));
-        System.out.println( Kalimat.charAt(3));
-        System.out.println( Kalimat.charAt(4));
+        //ini akan mencetak yang kedua
+        if (nama != true){
+
+            System.out.println("silahkan masuk");
+        }else {
+            System.out.println("anda tidak boleh masuk");
+        }
 
         System.out.println("////////////////////////////");
 
-        //tipe data float memiliki nilai berupa koma 0
+        //banyak percabangan many statement
 
-        float ankaFloat = 10;
-        System.out.println(ankaFloat);
+        int umur = 21;
 
+        if (nama == true && umur== 21 ){
 
+            System.out.println("aku masih muda");
+        } else if(nama == false && umur== 21 ){
+            System.out.println("kamu siapa dan muda");
+        } else if(nama == true && umur== 40 ){
+            System.out.println("aku sudah tua");
+        }else {
+            System.out.println("kamu siapa dan kamu tua");
+        }
+
+        //kita tinggal mainkan saja variabelnya
 
 
 
