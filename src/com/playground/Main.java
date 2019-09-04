@@ -2,22 +2,24 @@ package com.playground;
 
 public class Main {
 
+    //perulangan while
+
     public static void main(String[] args) {
-        //pecabangan nested
+        System.out.println("perulangan menggunakan while");
 
+        int angka = 0;
 
-        System.out.println("percabangan nested \n ");
+        while(angka <= 10){
 
-        String name = "yusuf";
-        int umur = 21;
+            System.out.println("ini perulangan ke- " + angka);
+            angka++;
+        }
 
-        if (name == "andi") {
-            if (umur== 21){
-                System.out.println("ini bener si yusuf");
-            }else
-                System.out.println("sepertinya mirip yusuf");
-        }else
-            System.out.println("ini bukan yusuf");
+        System.out.println("////////////////////////////////////////");
+        System.out.println("perulangan menggunakan for");
 
+        for (int angka1= 0; angka1 <=10; angka1++){
+            System.out.println("ini perulangan ke-" + angka1);
+        }
     }
 }
