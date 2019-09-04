@@ -1,31 +1,23 @@
 package com.playground;
 
 public class Main {
+
     public static void main(String[] args) {
+        //pecabangan nested
 
-        //operator aritmatika
 
-        // tambah ( + )
-        float angka1 = 3;
-        float angka2 = 4;
+        System.out.println("percabangan nested \n ");
 
-        System.out.println(angka1 + angka2);
+        String name = "yusuf";
+        int umur = 21;
 
-        System.out.println("///////////////////////////////////////");
-
-        // kurang ( - )
-        System.out.println(angka1 - angka2);
-
-        System.out.println("///////////////////////////////////////");
-
-        // kali ( * )
-        System.out.println(angka1 * angka2);
-
-        System.out.println("///////////////////////////////////////");
-
-        //bagi ( / )
-        System.out.print(angka1 / angka2);
-
+        if (name == "andi") {
+            if (umur== 21){
+                System.out.println("ini bener si yusuf");
+            }else
+                System.out.println("sepertinya mirip yusuf");
+        }else
+            System.out.println("ini bukan yusuf");
 
     }
 }
